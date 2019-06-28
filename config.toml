@@ -59,6 +59,42 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   quality = 90
   anchor = "smart"  # Anchor for cropping. Options include Smart and Center.
 
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+[[menu.main]]
+  name = "Home"
+  url = "#about"
+  weight = 1
+
+[[menu.main]]
+  name = "Posts"
+  url = "#posts"
+  weight = 2
+
+[[menu.main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 3
+
+[[menu.main]]
+  name = "CV"
+  url = "/pdf/cv_2018-07-22.pdf"
+  weight = 4
+
+[[menu.main]]
+  name = "Teaching"
+  url = "#teaching"
+  weight = 5
+
+[[menu.main]]
+  name = "contact"
+  url = "#contact"
+  weight = 6
+
+
 # Taxonomies.
 [taxonomies]
   tag = "tags"
